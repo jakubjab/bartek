@@ -4,9 +4,9 @@ def nwd_i(a, b):
         a, b = b, a%b
     return a
 
-a = input("Podaj a:")
-b = input("Podaj b:")
+a = int(input("Podaj a:"))
+b = int(input("Podaj b:"))
 
 nwd = nwd_i(a, b)
 
-print("nwd = " + nwd)
+print(f'nwd({a}, {b}) = {nwd}')
